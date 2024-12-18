@@ -1,18 +1,18 @@
 package content
 
 import (
-	cmdContentGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/get"
-	cmdContentCopyStatus "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/get_copy_status"
-	cmdContentDeletionStatus "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/get_deletion_status"
-	cmdContentExportResult "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/get_export_result"
-	cmdContentExportStatus "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/get_export_status"
-	cmdContentImportStatus "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/get_import_status"
-	cmdContentMove "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/move"
-	cmdContentStartCopy "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/start_copy"
-	cmdContentStartDeletion "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/start_deletion"
-	cmdContentStartExport "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/start_export"
-	cmdContentStartImport "github.com/SumoLogic-Labs/sumocli/pkg/cmd/content/start_import"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	cmdContentGet "github.com/dpc-sdp/sumocli/pkg/cmd/content/get"
+	cmdContentCopyStatus "github.com/dpc-sdp/sumocli/pkg/cmd/content/get_copy_status"
+	cmdContentDeletionStatus "github.com/dpc-sdp/sumocli/pkg/cmd/content/get_deletion_status"
+	cmdContentExportResult "github.com/dpc-sdp/sumocli/pkg/cmd/content/get_export_result"
+	cmdContentExportStatus "github.com/dpc-sdp/sumocli/pkg/cmd/content/get_export_status"
+	cmdContentImportStatus "github.com/dpc-sdp/sumocli/pkg/cmd/content/get_import_status"
+	cmdContentMove "github.com/dpc-sdp/sumocli/pkg/cmd/content/move"
+	cmdContentStartCopy "github.com/dpc-sdp/sumocli/pkg/cmd/content/start_copy"
+	cmdContentStartDeletion "github.com/dpc-sdp/sumocli/pkg/cmd/content/start_deletion"
+	cmdContentStartExport "github.com/dpc-sdp/sumocli/pkg/cmd/content/start_export"
+	cmdContentStartImport "github.com/dpc-sdp/sumocli/pkg/cmd/content/start_import"
 	"github.com/spf13/cobra"
 )
 

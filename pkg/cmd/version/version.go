@@ -2,7 +2,7 @@ package version
 
 import (
 	"fmt"
-	"github.com/SumoLogic-Labs/sumocli/internal/build"
+	"github.com/dpc-sdp/sumocli/internal/build"
 	"github.com/spf13/cobra"
 )
 

@@ -1,14 +1,14 @@
 package sources
 
 import (
-	cmdAwsCloudTrailSource "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/aws_cloudtrail"
-	cmdAWSS3ArchiveSource "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/aws_s3_archive"
-	cmdAzureEventHubSource "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/azure_event_hub"
-	cmdSourcesDelete "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/delete"
-	cmdHttpSources "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/http"
-	cmdSourcesList "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/list"
-	cmdLocalFileSources "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/local-file"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	cmdAwsCloudTrailSource "github.com/dpc-sdp/sumocli/pkg/cmd/sources/aws_cloudtrail"
+	cmdAWSS3ArchiveSource "github.com/dpc-sdp/sumocli/pkg/cmd/sources/aws_s3_archive"
+	cmdAzureEventHubSource "github.com/dpc-sdp/sumocli/pkg/cmd/sources/azure_event_hub"
+	cmdSourcesDelete "github.com/dpc-sdp/sumocli/pkg/cmd/sources/delete"
+	cmdHttpSources "github.com/dpc-sdp/sumocli/pkg/cmd/sources/http"
+	cmdSourcesList "github.com/dpc-sdp/sumocli/pkg/cmd/sources/list"
+	cmdLocalFileSources "github.com/dpc-sdp/sumocli/pkg/cmd/sources/local-file"
 	"github.com/spf13/cobra"
 )
 

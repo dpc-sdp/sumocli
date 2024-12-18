@@ -1,13 +1,13 @@
 package account
 
 import (
-	NewCmdAccountCreateSubdomain "github.com/SumoLogic-Labs/sumocli/pkg/cmd/account/create-subdomain"
-	NewCmdAccountDeleteSubdomain "github.com/SumoLogic-Labs/sumocli/pkg/cmd/account/delete-subdomain"
-	NewCmdAccountGetOwner "github.com/SumoLogic-Labs/sumocli/pkg/cmd/account/get-owner"
-	NewCmdAccountGetSubdomain "github.com/SumoLogic-Labs/sumocli/pkg/cmd/account/get-subdomain"
-	NewCmdAccountRecoverSubdomain "github.com/SumoLogic-Labs/sumocli/pkg/cmd/account/recover-subdomain"
-	NewCmdAccountUpdateSubdomain "github.com/SumoLogic-Labs/sumocli/pkg/cmd/account/update-subdomain"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdAccountCreateSubdomain "github.com/dpc-sdp/sumocli/pkg/cmd/account/create-subdomain"
+	NewCmdAccountDeleteSubdomain "github.com/dpc-sdp/sumocli/pkg/cmd/account/delete-subdomain"
+	NewCmdAccountGetOwner "github.com/dpc-sdp/sumocli/pkg/cmd/account/get-owner"
+	NewCmdAccountGetSubdomain "github.com/dpc-sdp/sumocli/pkg/cmd/account/get-subdomain"
+	NewCmdAccountRecoverSubdomain "github.com/dpc-sdp/sumocli/pkg/cmd/account/recover-subdomain"
+	NewCmdAccountUpdateSubdomain "github.com/dpc-sdp/sumocli/pkg/cmd/account/update-subdomain"
 	"github.com/spf13/cobra"
 )
 

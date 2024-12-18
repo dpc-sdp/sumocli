@@ -1,8 +1,8 @@
 package get_parent_organization_info
 
 import (
-	"github.com/SumoLogic-Labs/sumocli/pkg/cmdutils"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	"github.com/dpc-sdp/sumocli/pkg/cmdutils"
 	"github.com/spf13/cobra"
 )
 

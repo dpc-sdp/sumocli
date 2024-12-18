@@ -1,8 +1,8 @@
 package http
 
 import (
-	NewCmdCreateHttpSource "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/http/create"
-	NewCmdUpdateHttpSource "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/http/update"
+	NewCmdCreateHttpSource "github.com/dpc-sdp/sumocli/pkg/cmd/sources/http/create"
+	NewCmdUpdateHttpSource "github.com/dpc-sdp/sumocli/pkg/cmd/sources/http/update"
 	"github.com/spf13/cobra"
 )
 

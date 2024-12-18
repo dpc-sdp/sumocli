@@ -1,4 +1,4 @@
-module github.com/SumoLogic-Labs/sumocli
+module github.com/dpc-sdp/sumocli
 
 go 1.15
 

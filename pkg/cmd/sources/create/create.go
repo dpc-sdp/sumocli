@@ -2,9 +2,9 @@ package create
 
 import (
 	"encoding/json"
-	"github.com/SumoLogic-Labs/sumocli/api"
-	"github.com/SumoLogic-Labs/sumocli/pkg/cmd/factory"
-	"github.com/SumoLogic-Labs/sumocli/pkg/logging"
+	"github.com/dpc-sdp/sumocli/api"
+	"github.com/dpc-sdp/sumocli/pkg/cmd/factory"
+	"github.com/dpc-sdp/sumocli/pkg/logging"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 	"io"

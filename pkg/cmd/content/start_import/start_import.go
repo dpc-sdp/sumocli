@@ -2,11 +2,11 @@ package start_import
 
 import (
 	"encoding/json"
-	"github.com/SumoLogic-Labs/sumocli/internal/authentication"
-	"github.com/SumoLogic-Labs/sumocli/pkg/cmdutils"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip/types"
 	"github.com/antihax/optional"
+	"github.com/dpc-sdp/sumocli/internal/authentication"
+	"github.com/dpc-sdp/sumocli/pkg/cmdutils"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 	"os"

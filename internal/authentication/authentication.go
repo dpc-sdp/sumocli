@@ -3,8 +3,8 @@ package authentication
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/SumoLogic-Labs/sumocli/internal/encryption"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	"github.com/dpc-sdp/sumocli/internal/encryption"
 	"github.com/spf13/viper"
 	"os"
 	"path/filepath"

@@ -1,11 +1,11 @@
 package archive_ingestion
 
 import (
-	NewCmdArchiveIngestionCreate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/archive-ingestion/create"
-	NewCmdArchiveIngestionDelete "github.com/SumoLogic-Labs/sumocli/pkg/cmd/archive-ingestion/delete"
-	NewCmdArchiveIngestionGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/archive-ingestion/get"
-	NewCmdArchiveIngestionList "github.com/SumoLogic-Labs/sumocli/pkg/cmd/archive-ingestion/list"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdArchiveIngestionCreate "github.com/dpc-sdp/sumocli/pkg/cmd/archive-ingestion/create"
+	NewCmdArchiveIngestionDelete "github.com/dpc-sdp/sumocli/pkg/cmd/archive-ingestion/delete"
+	NewCmdArchiveIngestionGet "github.com/dpc-sdp/sumocli/pkg/cmd/archive-ingestion/get"
+	NewCmdArchiveIngestionList "github.com/dpc-sdp/sumocli/pkg/cmd/archive-ingestion/list"
 	"github.com/spf13/cobra"
 )
 

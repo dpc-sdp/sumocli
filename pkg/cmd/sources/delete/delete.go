@@ -2,8 +2,8 @@ package delete
 
 import (
 	"fmt"
-	"github.com/SumoLogic-Labs/sumocli/pkg/cmd/factory"
-	"github.com/SumoLogic-Labs/sumocli/pkg/logging"
+	"github.com/dpc-sdp/sumocli/pkg/cmd/factory"
+	"github.com/dpc-sdp/sumocli/pkg/logging"
 	"github.com/spf13/cobra"
 	"strconv"
 )

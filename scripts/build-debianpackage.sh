@@ -33,7 +33,7 @@ Package: sumocli
 Version: $version
 Maintainer: kyle@thepublicclouds.com
 Architecture: $architecture
-Homepage: https://github.com/SumoLogic-Labs/sumocli
+Homepage: https://github.com/dpc-sdp/sumocli
 Description: Sumocli is a CLI application written in Go that allows you to manage your Sumo Logic tenancy from the command line.
 EOF
 echo "=> Building debian package"

@@ -42,7 +42,7 @@ You can build the sumocli application for your platform by performing the follow
 
 Clone the sumocli repo
 
-`git clone https://github.com/SumoLogic-Labs/sumocli`
+`git clone https://github.com/dpc-sdp/sumocli`
 
 The repo is using Go modules so you can run go build:
 

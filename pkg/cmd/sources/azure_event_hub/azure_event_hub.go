@@ -1,10 +1,10 @@
 package azure_event_hub
 
 import (
-	NewCmdAzureEventHubCreate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/azure_event_hub/create"
-	NewCmdAzureEventHubGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/azure_event_hub/get"
-	NewCmdAzureEventHubUpdate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/sources/azure_event_hub/update"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdAzureEventHubCreate "github.com/dpc-sdp/sumocli/pkg/cmd/sources/azure_event_hub/create"
+	NewCmdAzureEventHubGet "github.com/dpc-sdp/sumocli/pkg/cmd/sources/azure_event_hub/get"
+	NewCmdAzureEventHubUpdate "github.com/dpc-sdp/sumocli/pkg/cmd/sources/azure_event_hub/update"
 	"github.com/spf13/cobra"
 )
 

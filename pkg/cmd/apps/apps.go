@@ -1,11 +1,11 @@
 package apps
 
 import (
-	NewCmdAppsGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/apps/get"
-	NewCmdAppsInstall "github.com/SumoLogic-Labs/sumocli/pkg/cmd/apps/install"
-	NewCmdAppsInstallStatus "github.com/SumoLogic-Labs/sumocli/pkg/cmd/apps/install_status"
-	NewCmdAppsList "github.com/SumoLogic-Labs/sumocli/pkg/cmd/apps/list"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdAppsGet "github.com/dpc-sdp/sumocli/pkg/cmd/apps/get"
+	NewCmdAppsInstall "github.com/dpc-sdp/sumocli/pkg/cmd/apps/install"
+	NewCmdAppsInstallStatus "github.com/dpc-sdp/sumocli/pkg/cmd/apps/install_status"
+	NewCmdAppsList "github.com/dpc-sdp/sumocli/pkg/cmd/apps/list"
 	"github.com/spf13/cobra"
 )
 

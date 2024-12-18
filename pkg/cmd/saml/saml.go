@@ -1,15 +1,15 @@
 package saml
 
 import (
-	NewCmdSamlAddAllowListUser "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/add-allowlist-user"
-	NewCmdSamlCreateConfiguration "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/create-configuration"
-	NewCmdSamlDeleteConfiguration "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/delete-configuration"
-	NewCmdSamlDisableLockdown "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/disable-lockdown"
-	NewCmdSamlEnableLockdown "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/enable-lockdown"
-	NewCmdSamlGetAllowListUsers "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/get-allowlist-users"
-	NewCmdSamlGetConfigurations "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/get-configurations"
-	NewCmdSamlRemoveAllowListUser "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/remove-allowlist-user"
-	NewCmdSamlUpdateConfiguration "github.com/SumoLogic-Labs/sumocli/pkg/cmd/saml/update-configuration"
+	NewCmdSamlAddAllowListUser "github.com/dpc-sdp/sumocli/pkg/cmd/saml/add-allowlist-user"
+	NewCmdSamlCreateConfiguration "github.com/dpc-sdp/sumocli/pkg/cmd/saml/create-configuration"
+	NewCmdSamlDeleteConfiguration "github.com/dpc-sdp/sumocli/pkg/cmd/saml/delete-configuration"
+	NewCmdSamlDisableLockdown "github.com/dpc-sdp/sumocli/pkg/cmd/saml/disable-lockdown"
+	NewCmdSamlEnableLockdown "github.com/dpc-sdp/sumocli/pkg/cmd/saml/enable-lockdown"
+	NewCmdSamlGetAllowListUsers "github.com/dpc-sdp/sumocli/pkg/cmd/saml/get-allowlist-users"
+	NewCmdSamlGetConfigurations "github.com/dpc-sdp/sumocli/pkg/cmd/saml/get-configurations"
+	NewCmdSamlRemoveAllowListUser "github.com/dpc-sdp/sumocli/pkg/cmd/saml/remove-allowlist-user"
+	NewCmdSamlUpdateConfiguration "github.com/dpc-sdp/sumocli/pkg/cmd/saml/update-configuration"
 	"github.com/spf13/cobra"
 )
 

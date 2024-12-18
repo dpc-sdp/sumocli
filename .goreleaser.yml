@@ -8,9 +8,9 @@ builds:
       - arm64
     main: ./cmd/sumocli
     ldflags:
-      - -X 'github.com/SumoLogic-Labs/sumocli/internal/build.Build={{.Commit}}'
-      - -X 'github.com/SumoLogic-Labs/sumocli/internal/build.Date={{.Date}}'
-      - -X 'github.com/SumoLogic-Labs/sumocli/internal/build.Version={{.Version}}'
+      - -X 'github.com/dpc-sdp/sumocli/internal/build.Build={{.Commit}}'
+      - -X 'github.com/dpc-sdp/sumocli/internal/build.Date={{.Date}}'
+      - -X 'github.com/dpc-sdp/sumocli/internal/build.Version={{.Version}}'
     ignore:
       - goos: windows
         goarch: arm64
@@ -21,7 +21,7 @@ dockers:
     goarch: amd64
     build_flag_templates:
       - --label=org.opencontainers.image.title={{.ProjectName}}
-      - --label=org.opencontainers.image.source=https://github.com/SumoLogic-Labs/sumocli
+      - --label=org.opencontainers.image.source=https://github.com/dpc-sdp/sumocli
       - --label=org.opencontainers.image.version={{.Version}}
       - --label=org.opencontainers.image.revision={{.FullCommit}}
     skip_push: false
@@ -32,7 +32,7 @@ dockers:
     goarch: arm64
     build_flag_templates:
       - --label=org.opencontainers.image.title={{.ProjectName}}
-      - --label=org.opencontainers.image.source=https://github.com/SumoLogic-Labs/sumocli
+      - --label=org.opencontainers.image.source=https://github.com/dpc-sdp/sumocli
       - --label=org.opencontainers.image.version={{.Version}}
       - --label=org.opencontainers.image.revision={{.FullCommit}}
     skip_push: false

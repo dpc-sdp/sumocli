@@ -1,11 +1,11 @@
 package dashboards
 
 import (
-	NewCmdDashboardCreate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dashboards/create"
-	NewCmdDashboardDelete "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dashboards/delete"
-	NewCmdDashboardsGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dashboards/get"
-	NewCmdDashboardsUpdate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dashboards/update"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdDashboardCreate "github.com/dpc-sdp/sumocli/pkg/cmd/dashboards/create"
+	NewCmdDashboardDelete "github.com/dpc-sdp/sumocli/pkg/cmd/dashboards/delete"
+	NewCmdDashboardsGet "github.com/dpc-sdp/sumocli/pkg/cmd/dashboards/get"
+	NewCmdDashboardsUpdate "github.com/dpc-sdp/sumocli/pkg/cmd/dashboards/update"
 	"github.com/spf13/cobra"
 )
 

@@ -1,9 +1,9 @@
 package password_policy
 
 import (
-	NewCmdPasswordPolicyGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/password_policy/get"
-	NewCmdPasswordPolicyUpdate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/password_policy/update"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdPasswordPolicyGet "github.com/dpc-sdp/sumocli/pkg/cmd/password_policy/get"
+	NewCmdPasswordPolicyUpdate "github.com/dpc-sdp/sumocli/pkg/cmd/password_policy/update"
 	"github.com/spf13/cobra"
 )
 

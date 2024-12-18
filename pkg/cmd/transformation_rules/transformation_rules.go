@@ -1,12 +1,12 @@
 package transformation_rules
 
 import (
-	NewCmdTransformationRulesCreate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/transformation_rules/create"
-	NewCmdTransformationRulesDelete "github.com/SumoLogic-Labs/sumocli/pkg/cmd/transformation_rules/delete"
-	NewCmdTransformationRulesGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/transformation_rules/get"
-	NewCmdTransformationRulesList "github.com/SumoLogic-Labs/sumocli/pkg/cmd/transformation_rules/list"
-	NewCmdTransformationRulesUpdate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/transformation_rules/update"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdTransformationRulesCreate "github.com/dpc-sdp/sumocli/pkg/cmd/transformation_rules/create"
+	NewCmdTransformationRulesDelete "github.com/dpc-sdp/sumocli/pkg/cmd/transformation_rules/delete"
+	NewCmdTransformationRulesGet "github.com/dpc-sdp/sumocli/pkg/cmd/transformation_rules/get"
+	NewCmdTransformationRulesList "github.com/dpc-sdp/sumocli/pkg/cmd/transformation_rules/list"
+	NewCmdTransformationRulesUpdate "github.com/dpc-sdp/sumocli/pkg/cmd/transformation_rules/update"
 	"github.com/spf13/cobra"
 )
 

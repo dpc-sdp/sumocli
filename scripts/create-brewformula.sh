@@ -25,12 +25,12 @@ done
 cat << EOF > sumocli.rb
 class Sumocli < Formula
   desc "sumocli"
-  homepage "https://github.com/SumoLogic-Labs/sumocli"
+  homepage "https://github.com/dpc-sdp/sumocli"
   version "$version"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/SumoLogic-Labs/sumocli/releases/download/$version/sumocli_${version}_darwin_amd64.tar.gz"
+      url "https://github.com/dpc-sdp/sumocli/releases/download/$version/sumocli_${version}_darwin_amd64.tar.gz"
       sha256 "$(generate_hash "sumocli_${version}_darwin_amd64.tar.gz")"
 
       def install
@@ -39,7 +39,7 @@ class Sumocli < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/SumoLogic-Labs/sumocli/releases/download/$version/sumocli_${version}_darwin_arm64.tar.gz"
+      url "https://github.com/dpc-sdp/sumocli/releases/download/$version/sumocli_${version}_darwin_arm64.tar.gz"
       sha256 "$(generate_hash "sumocli_${version}_darwin_arm64.tar.gz")"
 
       def install
@@ -50,7 +50,7 @@ class Sumocli < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/SumoLogic-Labs/sumocli/releases/download/$version/sumocli_${version}_linux_amd64.tar.gz"
+      url "https://github.com/dpc-sdp/sumocli/releases/download/$version/sumocli_${version}_linux_amd64.tar.gz"
       sha256 "$(generate_hash "sumocli_${version}_linux_amd64.tar.gz")"
 
       def install
@@ -59,7 +59,7 @@ class Sumocli < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/SumoLogic-Labs/sumocli/releases/download/0.1.0/sumocli_${version}_linux_amd64.tar.gz"
+      url "https://github.com/dpc-sdp/sumocli/releases/download/0.1.0/sumocli_${version}_linux_amd64.tar.gz"
       sha256 "$(generate_hash "sumocli_${version}_linux_arm64.tar.gz")"
 
       def install

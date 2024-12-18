@@ -1,12 +1,12 @@
 package dynamic_parsing
 
 import (
-	NewCmdDynamicParsingCreate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dynamic_parsing/create"
-	NewCmdDynamicParsingDelete "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dynamic_parsing/delete"
-	NewCmdDynamicParsingGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dynamic_parsing/get"
-	NewCmdDynamicParsingList "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dynamic_parsing/list"
-	NewCmdDynamicParsingUpdate "github.com/SumoLogic-Labs/sumocli/pkg/cmd/dynamic_parsing/update"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdDynamicParsingCreate "github.com/dpc-sdp/sumocli/pkg/cmd/dynamic_parsing/create"
+	NewCmdDynamicParsingDelete "github.com/dpc-sdp/sumocli/pkg/cmd/dynamic_parsing/delete"
+	NewCmdDynamicParsingGet "github.com/dpc-sdp/sumocli/pkg/cmd/dynamic_parsing/get"
+	NewCmdDynamicParsingList "github.com/dpc-sdp/sumocli/pkg/cmd/dynamic_parsing/list"
+	NewCmdDynamicParsingUpdate "github.com/dpc-sdp/sumocli/pkg/cmd/dynamic_parsing/update"
 	"github.com/spf13/cobra"
 )
 

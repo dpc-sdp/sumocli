@@ -1,9 +1,9 @@
 package health_events
 
 import (
-	NewCmdHealthEventsGet "github.com/SumoLogic-Labs/sumocli/pkg/cmd/health_events/get"
-	NewCmdHealthEventsList "github.com/SumoLogic-Labs/sumocli/pkg/cmd/health_events/list"
 	"github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip"
+	NewCmdHealthEventsGet "github.com/dpc-sdp/sumocli/pkg/cmd/health_events/get"
+	NewCmdHealthEventsList "github.com/dpc-sdp/sumocli/pkg/cmd/health_events/list"
 	"github.com/spf13/cobra"
 )
 
