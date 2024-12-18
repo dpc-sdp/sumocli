@@ -1,4 +1,7 @@
 # sumocli
+
+**This repo is a fork of [SumoLogic-Labs/sumocli](https://github.com/SumoLogic-Labs/sumocli) which aims to keep the tool patched with regular releases.**
+
 A CLI application that lets you manage/automate your Sumo Logic tenancy. 
 
 Sumocli is currently in development so there could be bugs/incomplete functionality.
