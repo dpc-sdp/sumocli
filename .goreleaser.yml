@@ -16,7 +16,7 @@ builds:
         goarch: arm64
 dockers:
   - image_templates:
-      - "ghcr.io/sumologic-labs/sumocli:{{.Version}}-amd64"
+      - "ghcr.io/dpc-sdp/sumocli:{{.Version}}-amd64"
     goos: linux
     goarch: amd64
     build_flag_templates:
@@ -27,7 +27,7 @@ dockers:
     skip_push: false
     use: podman
   - image_templates:
-      - "ghcr.io/sumologic-labs/sumocli:{{.Version}}-arm64"
+      - "ghcr.io/dpc-sdp/sumocli:{{.Version}}-arm64"
     goos: linux
     goarch: arm64
     build_flag_templates:
