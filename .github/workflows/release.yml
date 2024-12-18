@@ -45,27 +45,27 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}
       - name: Upload Darwin amd64
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_darwin_amd64
           path: ./dist/sumocli_darwin_amd64/sumocli
       - name: Upload Darwin arm64
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_darwin_arm64
           path: ./dist/sumocli_darwin_arm64/sumocli
       - name: Upload linux amd64
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_linux_amd64
           path: ./dist/sumocli_linux_amd64/sumocli
       - name: Upload linux arm64
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_linux_arm64
           path: ./dist/sumocli_linux_arm64/sumocli
       - name: Upload Windows amd64
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_windows_amd64
           path: ./dist/sumocli_windows_amd64/sumocli.exe
@@ -83,12 +83,12 @@ jobs:
         with:
           fetch-depth: 0
       - name: Download linux amd64 artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_linux_amd64
           path: ./sumocli_linux_amd64/sumocli
       - name: Download linux arm64 artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_linux_arm64
           path: ./sumocli_linux_arm64/sumocli
@@ -99,12 +99,12 @@ jobs:
           ./scripts/build-debianpackage.sh -a amd64 -v ${{ env.TAG }}
           ./scripts/build-debianpackage.sh -a arm64 -v ${{ env.TAG }}
       - name: Upload debian amd package asset
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_linux_amd64_deb
           path: ./deb/sumocli_${{ env.TAG }}-1_amd64.deb
       - name: Upload debian arm64 package asset
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_linux_arm64_deb
           path: ./deb/sumocli_${{ env.TAG }}-1_arm64.deb
@@ -119,12 +119,12 @@ jobs:
         with:
           fetch-depth: 0
       - name: Download darwin amd64 artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_darwin_amd64
           path: ./dist/sumocli_darwin_amd64
       - name: Download darwin arm64 artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_darwin_arm64
           path: ./dist/sumocli_darwin_arm64
@@ -156,22 +156,22 @@ jobs:
         env:
           AC_PASSWORD: ${{ secrets.AC_PASSWORD }}
       - name: Upload signed macOS amd64 dmg
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_darwin_amd64_signed_dmg
           path: ./sumocli_darwin_amd64.dmg
       - name: Upload signed macOS amd64 zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_darwin_amd64_signed_zip
           path: ./sumocli_darwin_amd64.zip
       - name: Upload signed macOS arm64 dmg
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_darwin_arm64_signed_dmg
           path: ./sumocli_darwin_arm64.dmg
       - name: Upload signed macOS arm64 zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_darwin_arm64_signed_zip
           path: ./sumocli_darwin_arm64.zip
@@ -190,7 +190,7 @@ jobs:
         run: |
           dotnet tool install --global AzureSignTool --version 3.0.0
       - name: Download Windows amd64 binary
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_windows_amd64
           path: ./dist/sumocli_windows_amd64/sumocli.exe
@@ -208,7 +208,7 @@ jobs:
             --timestamp-digest sha256 `
             $amd64
       - name: Upload Signed Windows amd64 binary
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: sumocli_windows_amd64_signed
           path: ./dist/sumocli_windows_amd64/sumocli.exe
@@ -222,27 +222,27 @@ jobs:
         run: |
           echo "TAG=${GITHUB_REF/refs\/tags\/}" >> $GITHUB_ENV
       - name: Download darwin amd64 signed asset
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_darwin_amd64_signed_zip
           path: sumocli_darwin_amd64/sumocli
       - name: Download darwin arm64 signed asset
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_darwin_arm64_signed_zip
           path: sumocli_darwin_arm64/sumocli
       - name: Download linux amd64 asset
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_linux_amd64
           path: sumocli_linux_amd64/sumocli
       - name: Download linux arm64 asset
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_linux_arm64
           path: sumocli_linux_arm64/sumocli
       - name: Download windows amd64 signed asset
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_windows_amd64_signed
           path: sumocli_windows_amd64/sumocli.exe
@@ -290,11 +290,11 @@ jobs:
         with:
           fetch-depth: 0
       - name: Download debian amd64 package
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_linux_amd64_deb
       - name: Download debian arm64 package
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: sumocli_linux_arm64_deb
       - name: Installing release prerequsities
