@@ -330,7 +330,7 @@ jobs:
         run: |
           echo "TAG=${GITHUB_REF/refs\/tags\/}" >> $GITHUB_ENV
       - name: Set SSH Key
-        uses: webfactory/ssh-agent@v0.5.4
+        uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Checkout
