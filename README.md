@@ -13,29 +13,12 @@ GA will be v1.0.0 which I am expecting to be ready for release in Q1 2022.
 Container images for `sumocli` are hosted in GitHub Packages and can be pulled with the following command:
 
 ```shell
-docker pull ghcr.io/sumologic-labs/sumocli:$VERSION-$ARCHITECTURE
+docker pull ghcr.io/dpc-sdp/sumocli:$VERSION
 ```
 
-### Linux
-You can install `sumocli` via apt on debian based linux distributions by running the following commands:
+### Binaries
 
-```shell
-apt-key adv --fetch-keys https://apt.sumocli.app/public.key
-add-apt-repository "deb https://apt.sumocli.app/ stable main"
-apt-get update
-apt-get install sumocli
-```
-### macOS
-
-You can install `sumocli` via homebrew on macOS by running the following commands:
-
-```shell
-brew tap sumologic-labs/homebrew-tap
-brew install sumologic-labs/tap/sumocli
-```
-### Windows
-
-You can download a signed binary file from the specific release you want.
+Go to the latest release and download the binary for your platform/architecture - https://github.com/dpc-sdp/sumocli/releases
 
 ### Build Yourself
 You can build the sumocli application for your platform by performing the following steps:
