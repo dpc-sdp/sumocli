@@ -9,6 +9,7 @@ before:
     - go generate ./...
 builds:
   - binary: sumocli
+    main: ./cmd/sumocli
     env:
       - CGO_ENABLED=0
     ldflags:
