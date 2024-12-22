@@ -59,7 +59,7 @@ jobs:
       # Check if this tag is the latest release, if so tag with latest.
       - name: Check if latest release
         id: check_latest_release
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
