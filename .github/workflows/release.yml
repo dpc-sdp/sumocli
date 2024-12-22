@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-tags: true
           fetch-depth: 0
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v5
         with:
           go-version: stable
       # More assembly might be required: Docker logins, GPG, etc. It all depends

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go Environment
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: ${{ env.GOVERSION }}
       - name: Checkout Code
@@ -26,7 +26,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Setup Go Environment
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: ${{ env.GOVERSION }}
       - name: Checkout Code
@@ -41,7 +41,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Setup Go Environment
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
           go-version: ${{ env.GOVERSION }}
       - name: Checkout Code
