@@ -3,7 +3,7 @@ module github.com/dpc-sdp/sumocli
 go 1.23.3
 
 require (
-	github.com/Azure/go-autorest/autorest/to v0.4.0
+	github.com/Azure/go-autorest/autorest/to v0.4.1
 	github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip v1.2.0
 	github.com/antihax/optional v1.0.0
 	github.com/aws/aws-sdk-go-v2/config v1.28.6

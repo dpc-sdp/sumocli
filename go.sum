@@ -2,6 +2,8 @@ github.com/Azure/go-autorest v14.2.0+incompatible h1:V5VMDjClD3GiElqLWO7mz2MxNAK
 github.com/Azure/go-autorest v14.2.0+incompatible/go.mod h1:r+4oMnoxhatjLLJ6zxSWATqVooLgysK6ZNox3g/xq24=
 github.com/Azure/go-autorest/autorest/to v0.4.0 h1:oXVqrxakqqV1UZdSazDOPOLvOIz+XA683u8EctwboHk=
 github.com/Azure/go-autorest/autorest/to v0.4.0/go.mod h1:fE8iZBn7LQR7zH/9XU2NcPR4o9jEImooCeWJcYV/zLE=
+github.com/Azure/go-autorest/autorest/to v0.4.1 h1:CxNHBqdzTr7rLtdrtb5CMjJcDut+WNGCVv7OmS5+lTc=
+github.com/Azure/go-autorest/autorest/to v0.4.1/go.mod h1:EtaofgU4zmtvn1zT2ARsjRFdq9vXx0YWtmElwL+GZ9M=
 github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip v1.2.0 h1:/o07r8Q1XgZ6zU53GG2HNWwnDJ/fqoGQ1s4Yw+8fqrY=
 github.com/SumoLogic-Labs/sumologic-go-sdk/service/cip v1.2.0/go.mod h1:lfGuVz/iGdmP4hyRQ6UCK0Ul2cF0mB4SyDN1m1NH5OU=
 github.com/antihax/optional v1.0.0 h1:xK2lYat7ZLaVVcIuj82J8kIro4V6kDe0AUDFboUCwcg=
