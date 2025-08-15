@@ -14,7 +14,7 @@ jobs:
   goreleaser:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-tags: true
           fetch-depth: 0
@@ -37,7 +37,7 @@ jobs:
     container: ghcr.io/dpc-sdp/bay/ci-builder:6.x
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Build the controller image
         run: docker build -f Dockerfile -t sumocli .
       - name: Log in to github container registry

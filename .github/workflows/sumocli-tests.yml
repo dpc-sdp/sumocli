@@ -15,7 +15,7 @@ jobs:
         with:
           go-version: ${{ env.GOVERSION }}
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
       - name: Build Sumocli
         run: go build ./cmd/sumocli
       - name: Run Tests
@@ -30,7 +30,7 @@ jobs:
         with:
           go-version: ${{ env.GOVERSION }}
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
       - name: Build Sumocli
         run: go build ./cmd/sumocli
       - name: Run Tests
@@ -45,7 +45,7 @@ jobs:
         with:
           go-version: ${{ env.GOVERSION }}
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
       - name: Build Sumocli
         run: go build ./cmd/sumocli
       - name: Run Tests
