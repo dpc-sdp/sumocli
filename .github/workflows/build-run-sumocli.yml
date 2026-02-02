@@ -1,0 +1,34 @@
+name: Build and Run sumocli
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+
+      - name: Build sumocli
+        run: |
+          mkdir -p bin
+          CGO_ENABLED=0 go build -o bin/sumocli ./cmd/sumocli
+
+      - name: Show version (sanity check)
+        run: |
+          ./bin/sumocli --help >/dev/null 2>&1 || true
+          ./bin/sumocli version || ./bin/sumocli --version || true
+
+      - name: Run binary to verify it executes
+        run: |
+          set -euo pipefail
+          ./bin/sumocli --help > help.txt
+          # Ensure the binary exited successfully and printed some help text
+          test -s help.txt
