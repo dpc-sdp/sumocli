@@ -1,6 +1,6 @@
 module github.com/dpc-sdp/sumocli
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/Azure/go-autorest/autorest/to v0.4.1
@@ -16,7 +16,7 @@ require (
 	github.com/rs/zerolog v1.34.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
-	golang.org/x/sys v0.40.0
+	golang.org/x/sys v0.42.0
 )
 
 require (
